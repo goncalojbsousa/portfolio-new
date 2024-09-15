@@ -1,11 +1,12 @@
 'use client'
 
+import { Link, usePathname } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 function Navbar() {
     const pathname = usePathname();
+    const t = useTranslations('Navbar');
 
     return (
         <div className="fixed top-0 left-0 right-0 z-10 bg-neutral-950 bg-opacity-90 text-white border-b border-sky-950">
@@ -21,7 +22,7 @@ function Navbar() {
                     />
                     <div>
                         <h1><b>Gonçalo Sousa</b></h1>
-                        <p>Software Developer</p>
+                        <p>{t('role')}</p>
                     </div>
                 </div>
                 <ul className="flex space-x-8 items-center p-4">
@@ -30,7 +31,7 @@ function Navbar() {
                             href={"/"}
                             className={`${pathname === '/' ? 'text-blue-400' : ''} hover:text-blue-400`}
                         >
-                            About
+                            {t('linkAbout')}
                         </Link>
                     </li>
                     <li>
@@ -39,7 +40,7 @@ function Navbar() {
                             className={`${pathname === '/projects' ? 'text-blue-400' : ''} hover:text-blue-400`}
 
                         >
-                            Projects
+                            {t('linkProjects')}
                         </Link>
                     </li>
                 </ul>
