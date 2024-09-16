@@ -4,11 +4,16 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import localFont from 'next/font/local'
 
 export const metadata: Metadata = {
   title: "Gonçalo Sousa",
   description: "Gonçalo Sousa Portfolio",
 };
+
+const siteFont = localFont({
+  src: "../../../public/fonts/main_font.ttf"
+})
 
 export default async function RootLayout({
   children,
@@ -21,7 +26,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`antialiased bg-black bg-[length:5px_5px] bg-gradient-to-b from-neutral-900 via-neutral-900 to-black min-h-screen flex flex-col`}
+        className={`${siteFont.className} antialiased bg-black bg-[length:5px_5px] bg-gradient-to-b from-neutral-900 via-neutral-900 to-black min-h-screen flex flex-col`}
       >
         <NextIntlClientProvider messages={messages}>
           <Navbar />
