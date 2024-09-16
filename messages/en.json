@@ -10,5 +10,30 @@
     "role": "Software Developer",
     "linkAbout": "About",
     "linkProjects": "Projects"
+  },
+  "Projects": {
+    "ghTitle": "GameHub Backlog",
+    "ghText": "GameHub Backlog is a game backlog tracker designed to help you keep track of your ever-growing library of video games.",
+    "gesTitle": "GESFaturação - Shopify APP",
+    "gesText": "This app automates invoicing for Shopify stores, converting orders into invoices and syncing inventory with GESFaturação. It also sends financial documents automatically."
+  },
+  "GESApp": {
+    "title": "GESFaturação - Shopify APP",
+    "text": "This internship project consists of developing an application for Shopify, integrated with FTKode's GESFaturação API, which aims to automate and simplify invoicing processes for online stores. The app makes it possible to convert orders into invoices or receipts automatically, synchronize inventories between Shopify and GESFaturação, and send financial documents by email efficiently and automatically."
+  },
+  "GameHub": {
+    "title": "GameHub Backlog",
+    "text": "GameHub Backlog is a comprehensive game backlog tracker designed to help you efficiently manage your video game collection. As your library of titles grows, keeping track of what to play next can become a daunting task. GameHub simplifies this by providing a centralized platform to organize, prioritize, and manage your games with ease.",
+    "live": "Live",
+    "sourceCode": "Source Code",
+    "featuresTitle": "Features:",
+    "feature1": "Google Authentication: Securely sign in using your Google account.",
+    "feature2": "Comprehensive Game Database: Browse and view details of games worldwide using the IGDB API.",
+    "feature3": "Advanced Search and Filtering: Search for games with various filters including Genres, Themes, Platforms, Perspectives, and Game Modes.",
+    "feature4": "Game Backlog Management: Track your game progress by adding games to your backlog with status options ('Played', 'Playing', 'Dropped', 'Plan to Play') and progress indicators ('Unfinished', 'Beaten', 'Completed', 'Continuous').",
+    "feature5": "Price Comparison: View and compare the prices of Steam games across several trusted stores to find the best deals.",
+    "feature6": "User Profiles: Access and manage your profile to view and organize your tracked games. Search for games by name, filter by status and progress, and sort by rating and name. Share your profile with friends and explore other users' profiles to see their game collections.",
+    "feature7": "Light and Dark Modes: Switch between light and dark themes for a customizable viewing experience.",
+    "technologiesTitle": "Technologies:"
   }
 }
