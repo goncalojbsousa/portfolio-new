@@ -46,7 +46,7 @@ function GameHub() {
                     </ul>
 
                     <div className='text-base mt-8'>
-                        <h1 className='text-xl mb-4'>Technologies:</h1>
+                    <h1 className='text-xl mb-4'>{t('technologiesTitle')}</h1>
                         <div className='flex flex-wrap justify-center items-center gap-4'>
                             <p className='p-2 border border-neutral-400 rounded-lg transition-transform hover:scale-110'>TypeScript</p>
                             <p className='p-2 border border-neutral-400 rounded-lg transition-transform hover:scale-110'>React</p>

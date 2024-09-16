@@ -19,7 +19,22 @@
   },
   "GESApp": {
     "title": "GESFaturação - Shopify APP",
-    "text": "This internship project consists of developing an application for Shopify, integrated with FTKode's GESFaturação API, which aims to automate and simplify invoicing processes for online stores. The app makes it possible to convert orders into invoices or receipts automatically, synchronize inventories between Shopify and GESFaturação, and send financial documents by email efficiently and automatically."
+    "text": "This internship project consists of developing an application for Shopify, integrated with FTKode's GESFaturação API, which aims to automate and simplify invoicing processes for online stores. The app makes it possible to convert orders into invoices or receipts automatically, synchronize inventories between Shopify and GESFaturação, and send financial documents by email efficiently and automatically.",
+    "featuresTitle": "Features:",
+    "feature1": "Secure Authentication: Integrated login with GESFaturação account, ensuring secure and personalized access.",
+    "feature2": "Automated Order Management: Automatic conversion of Shopify orders into standard invoices or invoice-receipts in GESFaturação.",
+    "feature3": "Inventory Synchronization: Direct inventory integration between Shopify and GESFaturação, keeping data always up-to-date.",
+    "feature4": "Document Generation and Sending: Automatic creation of invoices and receipts with email sending option.",
+    "feature5": "Intuitive User Interface: Developed with Polaris, offering a user experience consistent with the Shopify ecosystem.",
+    "feature6": "Product Management: Addition, editing, and removal of products in the GESFaturação inventory directly from the Shopify interface.",
+    "feature7": "Advanced Filters and Pagination: Easy navigation and search across all data tables.",
+    "feature8": "Customizable Preferences: Configuration of default values to streamline financial document creation.",
+    "feature9": "Action Logging: Detailed logging system to track all operations performed in the application.",
+    "feature10": "Data Visualization: Intuitive charts for monthly billing analysis.",
+    "feature11": "Root Page Integration: Quick action buttons on Shopify's main pages for common tasks.",
+    "feature12": "Robust API: Developed in Express.js, managing secure interactions with PostgreSQL database via Prisma.",
+    "technologiesTitle": "Technologies:",
+    "conclusion": "GESShop significantly simplifies financial and inventory management for Shopify merchants, providing an all-in-one solution that streamlines daily operations and improves business efficiency."
   },
   "GameHub": {
     "title": "GameHub Backlog",

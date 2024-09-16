@@ -13,3 +13,8 @@
     --foreground: #ededed;
   }
 }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #0a0a0a;
+}

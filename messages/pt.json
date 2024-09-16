@@ -1,14 +1,54 @@
 {
   "HomePage": {
     "aboutTitle": "Sobre mim",
-    "aboutContent": "I'm passionate about technology and programming, always looking to learn new technologies and turn ideas into reality through code. In my spare time, I like to relax by playing video games.",
-    "firstCourse": "Information Systems Technologies and Programming | 2022-2024",
-    "secondCourse": "Computer Engineering | 2024-2027",
+    "aboutContent": "Sou apaixonado por tecnologia e programação, procuro sempre aprender novas tecnologias e transformar ideias em realidade através de código. No meu tempo livre, gosto de a jogar videojogos.",
+    "firstCourse": "Tecnologias e Programação de Sistemas de Informação | 2022-2024",
+    "secondCourse": "Engenharia Informática | 2024-2027",
     "tech": "Tecnologias"
   },
   "Navbar": {
     "role": "Desenvolvedor de Software",
     "linkAbout": "Sobre",
     "linkProjects": "Projetos"
+  },
+  "Projects": {
+    "ghTitle": "GameHub Backlog",
+    "ghText": "O GameHub Backlog é um rastreador de backlog de jogos, projetado para te ajudar a gerir a tua crescente biblioteca de videojogos.",
+    "gesTitle": "GESFaturação - App Shopify",
+    "gesText": "Esta aplicação automatiza o processo de faturação para lojas Shopify, convertendo encomendas em faturas e sincronizando o inventário com o GESFaturação. Também envia automaticamente documentos financeiros."
+  },
+  "GESApp": {
+    "title": "GESFaturação - App Shopify",
+    "text": "Este projeto de estágio consiste no desenvolvimento de uma aplicação para Shopify, integrada com a API GESFaturação da FTKode, que visa automatizar e simplificar processos de faturação para lojas online. A aplicação permite a conversão automática de encomendas em faturas ou recibos, sincronização de inventários entre o Shopify e o GESFaturação, e envio de documentos financeiros por email de forma eficiente e automática.",
+    "featuresTitle": "Funcionalidades:",
+    "feature1": "Autenticação Segura: Login integrado com a conta GESFaturação, garantindo acesso seguro e personalizado.",
+    "feature2": "Gestão Automática de Encomendas: Conversão automática de encomendas do Shopify em faturas ou faturas-recibo no GESFaturação.",
+    "feature3": "Sincronização de Inventário: Integração direta de inventários entre Shopify e GESFaturação, mantendo os dados sempre atualizados.",
+    "feature4": "Geração e Envio de Documentos: Criação automática de faturas e recibos, com a opção de envio por email.",
+    "feature5": "Interface Intuitiva: Desenvolvida com Polaris, oferecendo uma experiência de utilizador consistente com o ecossistema Shopify.",
+    "feature6": "Gestão de Produtos: Adição, edição e remoção de produtos no inventário GESFaturação diretamente a partir da interface do Shopify.",
+    "feature7": "Filtros Avançados e Paginação: Navegação e pesquisa fácil em todas as tabelas de dados.",
+    "feature8": "Preferências Personalizáveis: Configuração de valores predefinidos para agilizar a criação de documentos financeiros.",
+    "feature9": "Registo de Ações: Sistema de registo detalhado para rastrear todas as operações realizadas na aplicação.",
+    "feature10": "Visualização de Dados: Gráficos intuitivos para análise de faturação mensal.",
+    "feature11": "Integração na Página Principal: Botões de ações rápidas nas páginas principais do Shopify para tarefas comuns.",
+    "feature12": "API Robusta: Desenvolvida em Express.js, gerindo interações seguras com a base de dados PostgreSQL via Prisma.",
+    "technologiesTitle": "Tecnologias:",
+    "conclusion": "O GESShop simplifica significativamente a gestão financeira e de inventário para os comerciantes Shopify, oferecendo uma solução completa que otimiza as operações diárias e melhora a eficiência do negócio."
+  },
+  "GameHub": {
+    "title": "GameHub Backlog",
+    "text": "O GameHub Backlog é um rastreador de backlog de jogos, concebido para te ajudar a gerir a tua coleção de jogos de forma eficiente. À medida que a tua biblioteca de títulos cresce, acompanhar o que jogar a seguir pode tornar-se uma tarefa difícil. O GameHub simplifica este processo, oferecendo uma plataforma centralizada para organizar, priorizar e gerir os teus jogos com facilidade.",
+    "live": "Ao vivo",
+    "sourceCode": "Código Fonte",
+    "featuresTitle": "Funcionalidades:",
+    "feature1": "Autenticação Google: Inicia sessão com segurança utilizando a tua conta Google.",
+    "feature2": "Base de Dados Abrangente de Jogos: Navega e vê detalhes de jogos em todo o mundo usando a API IGDB.",
+    "feature3": "Pesquisa e Filtros Avançados: Pesquisa jogos com vários filtros, incluindo Géneros, Temas, Plataformas, Perspectivas e Modos de Jogo.",
+    "feature4": "Gestão de Backlog de Jogos: Acompanha o progresso dos teus jogos adicionando-os ao backlog com opções de estado ('Jogado', 'A Jogar', 'Desistido', 'Plano de Jogo') e indicadores de progresso ('Inacabado', 'Concluído', 'Completado', 'Contínuo').",
+    "feature5": "Comparação de Preços: Vê e compara os preços dos jogos no Steam em várias lojas confiáveis para encontrar as melhores ofertas.",
+    "feature6": "Perfis de Utilizador: Acede e gere o teu perfil para visualizar e organizar os jogos que estás a seguir. Pesquisa jogos por nome, filtra por estado e progresso, e ordena por classificação e nome. Partilha o teu perfil com amigos e explora os perfis de outros utilizadores para ver as suas coleções de jogos.",
+    "feature7": "Modos Claro e Escuro: Alterna entre temas claro e escuro para uma experiência de visualização personalizada.",
+    "technologiesTitle": "Tecnologias:"
   }
 }
