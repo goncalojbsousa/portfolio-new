@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Gonçalo Sousa
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js, featuring internationalization support and showcasing my projects and skills as a Software Developer.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Multilingual Support**: Available in English and Portuguese using `next-intl`
+- **Responsive Design**: Optimized for all devices with Tailwind CSS
+- **Modern UI**: Clean and professional design with smooth animations
+- **Project Showcase**: Detailed project pages with images and descriptions
+- **Technology Stack Display**: Interactive technology icons with hover effects
+- **Dark Theme**: Elegant dark theme optimized for readability
+
+## 🚀 Projects Showcase
+
+The portfolio features a dedicated projects section where I showcase my work. Each project includes detailed descriptions, technologies used, and live demos or source code links where available.
+
+## 🛠️ Technologies Used
+
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Internationalization**: next-intl
+
+## 📋 Prerequisites
+
+Before running this project, make sure you have:
+
+- Node.js 18+ installed
+- npm, yarn, pnpm, or bun package manager
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd portfolio-new
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the portfolio.
+
+## 📁 Project Structure
+
+```
+portfolio-new/
+├── src/
+│   ├── app/
+│   │   └── [locale]/          # Internationalized routes
+│   │       ├── layout.tsx     # Root layout
+│   │       ├── page.tsx       # Home page
+│   │       └── projects/      # Projects pages
+│   ├── components/            # Reusable components
+│   │   ├── card.tsx
+│   │   ├── navbar.tsx
+│   │   ├── footer.tsx
+│   │   └── svg/              # SVG icons
+│   └── i18n/                 # Internationalization
+├── messages/                 # Translation files
+│   ├── en.json
+│   └── pt.json
+├── public/                   # Static assets
+└── tailwind.config.ts       # Tailwind configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Internationalization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The portfolio supports multiple languages:
+- **English** (`/en`)
+- **Portuguese** (`/pt`)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Language switching is handled automatically based on the URL locale parameter.
 
-## Learn More
+## 🎨 Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Adding New Projects
+1. Add project images to the `public/` directory
+2. Update translation files in `messages/`
+3. Create project page in `src/app/[locale]/projects/[project]/`
+4. Update the projects grid in `src/app/[locale]/projects/page.tsx`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Styling
+The project uses Tailwind CSS for styling. Custom styles can be added in:
+- `src/app/globals.css` for global styles
+- Component-specific classes in individual components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Build and Deployment
 
-## Deploy on Vercel
+### Build for Production
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Start Production Server
+```bash
+npm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Lint Code
+```bash
+npm run lint
+```
+
+## 🚀 Deployment
+
+This portfolio can be easily deployed to:
+- **Vercel** (recommended for Next.js)
+- **Netlify**
+- **AWS Amplify**
+- Any platform that supports Node.js applications
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

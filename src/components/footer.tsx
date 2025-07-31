@@ -34,7 +34,7 @@ function Footer() {
                     </Link>
                 </div>
 
-                <p className="flex items-center">© 2024 Gonçalo Sousa</p>
+                <p className="flex items-center">© 2025 Gonçalo Sousa</p>
 
                 <div className="flex space-x-4 items-center">
                     <Link href="https://goncalosousa.netlify.app" target="_blank">
