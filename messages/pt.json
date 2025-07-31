@@ -1,10 +1,11 @@
 {
   "HomePage": {
-    "aboutTitle": "Sobre mim",
-    "aboutContent": "Sou apaixonado por tecnologia e programação, procuro sempre aprender novas tecnologias e transformar ideias em realidade através de código. No meu tempo livre, gosto de a jogar videojogos.",
-    "firstCourse": "Tecnologias e Programação de Sistemas de Informação | 2022-2024",
+    "aboutTitle": "Sobre Mim",
+    "aboutContent": "Sou apaixonado por tecnologia e programação, sempre à procura de aprender novas tecnologias e transformar ideias em realidade através de código. No meu tempo livre, gosto de relaxar a jogar videojogos.",
+    "firstCourse": "Tecnologias de Sistemas de Informação e Programação | 2022-2024",
     "secondCourse": "Engenharia Informática | 2024-2027",
-    "tech": "Tecnologias"
+    "tech": "Tecnologias",
+    "connectTitle": "Conecta-te comigo"
   },
   "Navbar": {
     "role": "Desenvolvedor de Software",

@@ -31,18 +31,19 @@ function Navbar() {
                     <li>
                         <Link
                             href={"/"}
-                            className={`${pathname === '/' ? 'text-blue-400' : ''} hover:text-blue-400`}
+                            className={`${pathname === '/' ? 'text-blue-400' : ''} hover:text-blue-400 interactive relative group`}
                         >
                             {t('linkAbout')}
+                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 transition-all group-hover:w-full"></span>
                         </Link>
                     </li>
                     <li>
                         <Link
                             href={"/projects"}
-                            className={`${pathname === '/projects' ? 'text-blue-400' : ''} hover:text-blue-400`}
-
+                            className={`${pathname === '/projects' ? 'text-blue-400' : ''} hover:text-blue-400 interactive relative group`}
                         >
                             {t('linkProjects')}
+                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 transition-all group-hover:w-full"></span>
                         </Link>
                     </li>
                 </ul>
