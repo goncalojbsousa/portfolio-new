@@ -37,7 +37,7 @@ function Footer() {
                 <p className="flex items-center">© 2025 Gonçalo Sousa</p>
 
                 <div className="flex space-x-4 items-center">
-                    <Link href="https://goncalosousa.netlify.app" target="_blank">
+                    <Link href="https://goncalosousa.vercel.app" target="_blank">
                         <WebsiteIcon className="fill-white transition-transform hover:scale-110" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/goncalojbsousa" target="_blank">

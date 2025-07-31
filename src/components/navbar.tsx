@@ -15,7 +15,7 @@ function Navbar() {
                     <Link href='/'>
                         <Image
                             className="rounded-full mr-4 border-2 border-blue-400"
-                            src="/photo.jpeg"
+                            src="/photo.jpg"
                             alt="Gonçalo Sousa Photo"
                             width={60}
                             height={60}
